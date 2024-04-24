@@ -19,33 +19,29 @@ This project is created to display a practical understanding of network access c
 
 ### Step 1: Setup File Shares
 - **Create Shared Folders**:
-  - Instructions on setting up folders intended for network sharing.
-  - *Screenshot: Creating shared folders.*
+  - On your Windows Server, create new folders that will be shared across the network.
+  - **Screenshot**: Capture the folder properties showing the 'Sharing' tab with the newly created shared folder.
 
 - **Configure Share Permissions**:
-  - Steps to assign share permissions that determine how users can access shared folders over the network.
-  - *Screenshot: Setting share permissions.*
+  - Right-click on the folder, go to Properties -> Sharing -> Advanced Sharing, and set the share permissions for user groups.
+  - **Screenshot**: Display the share permissions settings indicating which groups have access and what level of access they have.
 
 ### Step 2: Configure Security Permissions
 - **Set NTFS Permissions**:
-  - Detailed guidance on setting NTFS permissions to provide detailed security settings at the file system level.
-  - *Screenshot: Configuring NTFS permissions.*
+  - In the folder properties, navigate to the Security tab and configure NTFS permissions to specify what actions different users or groups can perform on folder contents.
+  - **Screenshot**: Show the Security tab with detailed NTFS permissions for a specific user or group.
 
 - **Security Groups for Access Control**:
-  - Use of security groups to efficiently manage permissions for multiple users.
-  - *Screenshot: Creating and managing security groups.*
+  - Utilize Active Directory to create and manage security groups that help in applying permissions to a broader range of users efficiently.
+  - **Screenshot**: Capture the Active Directory Users and Computers snap-in showing the configured security groups.
 
 ### Step 3: Test Access Controls
 - **Access Tests with Different User Accounts**:
-  - Testing access to the shares with different user accounts to ensure permissions are correctly applied.
-  - *Screenshot: Testing access as different users.*
-
-- **Troubleshooting Permission Issues**:
-  - Identify and resolve common issues encountered during permission and share setup.
-  - *Screenshot: Troubleshooting security permissions.*
+  - Log in from different user accounts to test whether the access restrictions set through share and NTFS permissions are working correctly.
+  - **Screenshot**: Document attempts to access the shared folders from a user account with limited permissions, showing error messages or denial of access.
 
 ## Conclusion
-Managing file shares and security permissions effectively is crucial for maintaining data security and operational efficiency in any organization. This project highlights the best practices for setting up secure file sharing and detailed permission management on Windows Server.
+Effective management of file shares and security permissions is crucial for protecting sensitive information and ensuring that only authorized users can access specific network resources. This project illustrates the steps necessary to configure robust access controls on Windows Server.
 
 ## Connect with Me
-- *LinkedIn:* [https://www.linkedin.com/in/chazz-c-382a75122/](#)
+- **LinkedIn:** [Chazz Conino](https://www.linkedin.com/in/chazz-c-382a75122/)
