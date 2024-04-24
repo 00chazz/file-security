@@ -1,44 +1,51 @@
-<h1>File Shares and Security Permissions Management</h1>
+# File Shares and Security Permissions Management
 
-<h2>Overview</h2>
+## Overview
 This project is created to display a practical understanding of network access control and security protocols by managing permissions on file shares.
 
-- <h2>Environments and Technologies Used</h2>
-- <b>Microsoft Azure:</b> Azure Virtual Machines </b>
-- <b>Remote Desktop</b>
-- <b>Active Directory Domain Services</b>
-- <b>PowerShell</b>
-- <b>Operating Systems: </b>
-  - Windows Server 2022
-  - Windows 10
-- <h2>High-Level Deployment and Configuration Steps</h2>
-1. <b>Prepare Azure environment: </b>
-   - Set up Azure Virtual Machines for the domain controller and member servers.
-2. <b>Install and Configure Active Directory: </b>
-   - Install Active Directory Domain Services on the designated VM.
-   - Promote the VM to a domain controller.
-3. <b>Configure Networking and Firewall Settings: </b>
-   - Adjust network settings to allow proper AD operations across the network.
-4. <b>Validation and Testing: </b>
-   - Perform system checks and validate AD functionalities within Azure.
-  
-- <h2>Detailed Deployment and Configuration Steps</h2>
-1. <b>Azure Setup: </b>
-   - Create Resource Groups:
-     
-   - Configure Virtual Network Settings:
-  
-2. <b>Active Directory Installation </b>
-   - Install AD Domain Services on a new VM:
-     
-   - Promote the VM to a domain controller:
-     
-3. <b>Network Configuration </b>
-   - Adjust DNS settings for AD operations:
-  
-   - Set up Firewall rules for secure AD communication:
-  
-4. <b>System Testing </b>
-   - User Creation and Role Assignments:
-     
-   - Test Authentication and Authorization:
+## Environments and Technologies Used
+- **Windows Server 2022**: Used for hosting file shares and managing permissions
+- **Network File Sharing and Security**: Configuration of share and NTFS permissions
+
+## High-Level Configuration Steps
+1. **Setup File Shares on Windows Server**:
+   - Create shared folders and configure share permissions.
+2. **Configure Security Permissions**:
+   - Manage NTFS permissions to control access to files and directories.
+3. **Test Access Controls**:
+   - Verify that the permissions and shares work as expected across different user accounts.
+
+## Detailed Configuration and Testing Steps
+
+### Step 1: Setup File Shares
+- **Create Shared Folders**:
+  - Instructions on setting up folders intended for network sharing.
+  - *Screenshot: Creating shared folders.*
+
+- **Configure Share Permissions**:
+  - Steps to assign share permissions that determine how users can access shared folders over the network.
+  - *Screenshot: Setting share permissions.*
+
+### Step 2: Configure Security Permissions
+- **Set NTFS Permissions**:
+  - Detailed guidance on setting NTFS permissions to provide detailed security settings at the file system level.
+  - *Screenshot: Configuring NTFS permissions.*
+
+- **Security Groups for Access Control**:
+  - Use of security groups to efficiently manage permissions for multiple users.
+  - *Screenshot: Creating and managing security groups.*
+
+### Step 3: Test Access Controls
+- **Access Tests with Different User Accounts**:
+  - Testing access to the shares with different user accounts to ensure permissions are correctly applied.
+  - *Screenshot: Testing access as different users.*
+
+- **Troubleshooting Permission Issues**:
+  - Identify and resolve common issues encountered during permission and share setup.
+  - *Screenshot: Troubleshooting security permissions.*
+
+## Conclusion
+Managing file shares and security permissions effectively is crucial for maintaining data security and operational efficiency in any organization. This project highlights the best practices for setting up secure file sharing and detailed permission management on Windows Server.
+
+## Connect with Me
+- *LinkedIn:* [https://www.linkedin.com/in/chazz-c-382a75122/](#)
