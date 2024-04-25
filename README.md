@@ -1,4 +1,4 @@
-# File Shares and Security Permissions Management
+# File Shares and Security Permissions Management (in progress)
 
 ## Overview
 This project is created to display a practical understanding of network access control and security protocols by managing permissions on file shares.
@@ -20,25 +20,20 @@ This project is created to display a practical understanding of network access c
 ### Step 1: Setup File Shares
 - **Create Shared Folders**:
   - On your Windows Server, create new folders that will be shared across the network.
-  - **Screenshot**: Capture the folder properties showing the 'Sharing' tab with the newly created shared folder.
 
 - **Configure Share Permissions**:
   - Right-click on the folder, go to Properties -> Sharing -> Advanced Sharing, and set the share permissions for user groups.
-  - **Screenshot**: Display the share permissions settings indicating which groups have access and what level of access they have.
 
 ### Step 2: Configure Security Permissions
 - **Set NTFS Permissions**:
   - In the folder properties, navigate to the Security tab and configure NTFS permissions to specify what actions different users or groups can perform on folder contents.
-  - **Screenshot**: Show the Security tab with detailed NTFS permissions for a specific user or group.
 
 - **Security Groups for Access Control**:
   - Utilize Active Directory to create and manage security groups that help in applying permissions to a broader range of users efficiently.
-  - **Screenshot**: Capture the Active Directory Users and Computers snap-in showing the configured security groups.
 
 ### Step 3: Test Access Controls
 - **Access Tests with Different User Accounts**:
   - Log in from different user accounts to test whether the access restrictions set through share and NTFS permissions are working correctly.
-  - **Screenshot**: Document attempts to access the shared folders from a user account with limited permissions, showing error messages or denial of access.
 
 ## Conclusion
 Effective management of file shares and security permissions is crucial for protecting sensitive information and ensuring that only authorized users can access specific network resources. This project illustrates the steps necessary to configure robust access controls on Windows Server.
